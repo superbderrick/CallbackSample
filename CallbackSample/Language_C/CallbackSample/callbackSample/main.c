@@ -1,6 +1,6 @@
 //
 //  main.c
-//  CallbackSample
+//  callbackSample
 //
 //  Created by Kang Jinyeoung on 2015. 10. 18..
 //  Copyright © 2015년 SuperbDerrick. All rights reserved.
