@@ -16,7 +16,7 @@ NSInteger mTemperatures[11] = {30, 28, 22, 20, 15, 10 , -5,5 ,8 , 0 , -1 };
 
 -(id)init {
     if ( self = [super init] ) {
-        NSLog(@"%i" , mTemperatures[1]);
+        
     }    
     return self;
 }
@@ -41,12 +41,4 @@ NSInteger mTemperatures[11] = {30, 28, 22, 20, 15, 10 , -5,5 ,8 , 0 , -1 };
     }
     
 }
--(void)onTemperatureChanged:(int)tempature
-{
-              NSLog(@"onTemperatureChanged %i" , tempature);
-}
-
-
-
-
 @end
