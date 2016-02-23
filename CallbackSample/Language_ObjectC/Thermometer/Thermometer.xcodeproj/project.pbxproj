@@ -1,0 +1,258 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		491CA1F31C7BFC5200E1E7D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 491CA1F21C7BFC5200E1E7D1 /* main.m */; };
+		491CA2171C7C2D0C00E1E7D1 /* Headter.m in Sources */ = {isa = PBXBuildFile; fileRef = 491CA2161C7C2D0C00E1E7D1 /* Headter.m */; };
+		491CA21A1C7C2D2F00E1E7D1 /* Thermometer.m in Sources */ = {isa = PBXBuildFile; fileRef = 491CA2191C7C2D2F00E1E7D1 /* Thermometer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		491CA1ED1C7BFC5200E1E7D1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		491CA1EF1C7BFC5200E1E7D1 /* Thermometer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Thermometer; sourceTree = BUILT_PRODUCTS_DIR; };
+		491CA1F21C7BFC5200E1E7D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		491CA2151C7C2D0C00E1E7D1 /* Headter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Headter.h; path = ../Headter.h; sourceTree = "<group>"; };
+		491CA2161C7C2D0C00E1E7D1 /* Headter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Headter.m; path = ../Headter.m; sourceTree = "<group>"; };
+		491CA2181C7C2D2F00E1E7D1 /* Thermometer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thermometer.h; sourceTree = "<group>"; };
+		491CA2191C7C2D2F00E1E7D1 /* Thermometer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Thermometer.m; sourceTree = "<group>"; };
+		491CA21B1C7C36F500E1E7D1 /* TemperatureDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemperatureDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		491CA1EC1C7BFC5200E1E7D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		491CA1E61C7BFC5200E1E7D1 = {
+			isa = PBXGroup;
+			children = (
+				491CA1F11C7BFC5200E1E7D1 /* Thermometer */,
+				491CA1F01C7BFC5200E1E7D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		491CA1F01C7BFC5200E1E7D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				491CA1EF1C7BFC5200E1E7D1 /* Thermometer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		491CA1F11C7BFC5200E1E7D1 /* Thermometer */ = {
+			isa = PBXGroup;
+			children = (
+				491CA2151C7C2D0C00E1E7D1 /* Headter.h */,
+				491CA2161C7C2D0C00E1E7D1 /* Headter.m */,
+				491CA1F21C7BFC5200E1E7D1 /* main.m */,
+				491CA2181C7C2D2F00E1E7D1 /* Thermometer.h */,
+				491CA2191C7C2D2F00E1E7D1 /* Thermometer.m */,
+				491CA21B1C7C36F500E1E7D1 /* TemperatureDelegate.h */,
+			);
+			path = Thermometer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		491CA1EE1C7BFC5200E1E7D1 /* Thermometer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 491CA1F61C7BFC5200E1E7D1 /* Build configuration list for PBXNativeTarget "Thermometer" */;
+			buildPhases = (
+				491CA1EB1C7BFC5200E1E7D1 /* Sources */,
+				491CA1EC1C7BFC5200E1E7D1 /* Frameworks */,
+				491CA1ED1C7BFC5200E1E7D1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Thermometer;
+			productName = Thermometer;
+			productReference = 491CA1EF1C7BFC5200E1E7D1 /* Thermometer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		491CA1E71C7BFC5200E1E7D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = derrick;
+				TargetAttributes = {
+					491CA1EE1C7BFC5200E1E7D1 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 491CA1EA1C7BFC5200E1E7D1 /* Build configuration list for PBXProject "Thermometer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 491CA1E61C7BFC5200E1E7D1;
+			productRefGroup = 491CA1F01C7BFC5200E1E7D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				491CA1EE1C7BFC5200E1E7D1 /* Thermometer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		491CA1EB1C7BFC5200E1E7D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491CA21A1C7C2D2F00E1E7D1 /* Thermometer.m in Sources */,
+				491CA2171C7C2D0C00E1E7D1 /* Headter.m in Sources */,
+				491CA1F31C7BFC5200E1E7D1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		491CA1F41C7BFC5200E1E7D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		491CA1F51C7BFC5200E1E7D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		491CA1F71C7BFC5200E1E7D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		491CA1F81C7BFC5200E1E7D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		491CA1EA1C7BFC5200E1E7D1 /* Build configuration list for PBXProject "Thermometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				491CA1F41C7BFC5200E1E7D1 /* Debug */,
+				491CA1F51C7BFC5200E1E7D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		491CA1F61C7BFC5200E1E7D1 /* Build configuration list for PBXNativeTarget "Thermometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				491CA1F71C7BFC5200E1E7D1 /* Debug */,
+				491CA1F81C7BFC5200E1E7D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 491CA1E71C7BFC5200E1E7D1 /* Project object */;
+}
